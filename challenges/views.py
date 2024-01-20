@@ -17,7 +17,7 @@ monthly_challenges = {
     "november": "Walk for at least 20 minutes every day!",
     "december": "Learn Django for at least 20 minutes every day!",
 }
-
+# this is a views file for challenges app.
 def index(request):
     months = list(monthly_challenges.keys())
     
